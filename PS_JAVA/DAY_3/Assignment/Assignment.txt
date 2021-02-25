@@ -1,0 +1,5 @@
+0. Create a file using java program.	
+1. Create directory from java program.
+2. Rename file.
+3. List all the files available in directory.
+4. Copy Files.

@@ -1,0 +1,5 @@
+1. Write a Program to find out Leap Year or not.
+2. Write a program to find out given number is Positive, Negative or Zero
+3. Java Program to Print Months Name
+4. Java Program to Print input character is vowel or consonant
+5. Java Program to print Pyramid.
