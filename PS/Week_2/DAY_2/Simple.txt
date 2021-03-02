@@ -1,0 +1,4 @@
+In toc,
+XML processing
+Annotations and all are there
+Not sure if it's part of Hadoop or yet to do

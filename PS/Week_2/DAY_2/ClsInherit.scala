@@ -43,3 +43,14 @@ object ClsInherit {
         pt2.move(1, 2, 3);
     }
 }
+
+object ClsInherit2 {
+    def main(args: Array[String]) {
+        println("This is from second object");
+        val pt1 = new Point(100, 200);
+        pt1.move(1, 2);
+
+        val pt2 = new Location(10, 20, 30);
+        pt2.move(1, 2, 3);
+    }
+}
