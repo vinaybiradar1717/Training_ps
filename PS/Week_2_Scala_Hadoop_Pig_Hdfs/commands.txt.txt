@@ -1,0 +1,19 @@
+1. JDK AND JPS (java processing service)
+	=> sudo apt-get install openjdk-8-jdk-headless
+======================================================
+
+2. regarding hive
+	=> sbin/start-all.sh (starts all the processes)
+	=> source ~/.bashrc_profile
+	=> hive (opens the shell) (do not forget to put semi colon after every line)
+	   	=> create the table
+		=> describe it
+		=> 2 ways to put into hdfs hive
+			   =>1. load data local inpath '<path>' into table table_name
+
+			   # before point 2, open other terminal in hadoop dir, and type
+			   # 'bin/hdfs dfs -put <path> /' 
+
+			   =>2. load data inpath '<filename>' into table table_name
+		=> select * from table_name
+===========================================================================================

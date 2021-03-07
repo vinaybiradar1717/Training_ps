@@ -1,0 +1,12 @@
+create table product ( product_id int, product_name string, product_price int, product_category string) row format delimited fields terminated by ',';
+
+create table product1 ( product_id int, product_name string, product_price int, product_category string) row format delimited fields terminated by ',';
+
+describe product;
+describe product1;
+
+load data local inpath '/home/vinay/input.txt' into table product;
+load data inpath '/input.txt' into table product1;
+
+select * from product;
+selct * from product1;

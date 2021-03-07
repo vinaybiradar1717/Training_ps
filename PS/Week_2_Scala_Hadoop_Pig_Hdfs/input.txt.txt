@@ -1,0 +1,4 @@
+1,pencil,5,wood
+2,pen,10,plastic
+3,eraser,3,rubber
+4,box,15,steel
